@@ -429,11 +429,6 @@ html,body{
     align-items: center;
     // .staing__form
 
-    &__form {
-    }
-
-    // .staing__logo
-
     &__logo {
         text-align: center;
     }
@@ -441,12 +436,23 @@ html,body{
     // .staing__row
 
     &__row {
+        @media(max-width:607px){
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
         display: flex;
     }
 
     // .staing__inp
 
     &__inp {
+        @media(max-width:607px){
+            width: 350px;
+        }
+        @media(max-width:390px){
+            width: 300px;;
+        }
         width: 400px;
         height: 69px;
         font-size: 20px;
@@ -462,6 +468,9 @@ html,body{
     // .staing__btn
 
     &__btn {
+        @media(max-width:607px){
+            
+        }
         width: 126px;
         height: 70px;
         background-color: #64c29e;
@@ -488,7 +497,16 @@ html,body{
     // .footer__content
 
     &__content {
-        display: inline;
+        @media(max-width:607px){
+            flex-direction: column;
+            padding: 66px 0 83px 0;
+        }
+
+        @media(max-width:390px){
+            width: 300px;
+            padding: 44px 0 55px 0;
+        }
+        display: flex;
         justify-content: space-between;
         align-items: center;
         padding: 99px 0 103px 0;
@@ -530,18 +548,30 @@ html,body{
     // .footer__elem
 
     &__elem {
+        margin-right: 15px;
+        &:last-child{
+            margin: 0;
+        }
     }
 
     // .footer__yebo-row
 
     &__yebo-row {
+        display: flex;
     }
 
     // .footer__image
 
     &__image {
+        margin-left: 9px;
     }
-    &__text
+    &__text{
+        font-size: 13.9px;
+        line-height: 17px;
+        font-weight: 400;
+        font-style: italic;
+        color: #848789;
+    }
 }
 
 
