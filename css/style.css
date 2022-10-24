@@ -344,3 +344,122 @@ html, body {
   letter-spacing: 0.2em;
   color: #ffffff;
 }
+
+.footer-shop {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 75px 0;
+  background-color: #282f35;
+}
+@media (max-width: 767px) {
+  .footer-shop {
+    padding: 45px 0;
+  }
+}
+.discover {
+  display: block;
+  width: 300px;
+  height: 50px;
+  border: 1px solid white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+}
+.discover span {
+  font-family: Lato;
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  color: #ffffff;
+}
+
+.staing {
+  padding: 109px 0 111px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.staing__logo {
+  text-align: center;
+}
+.staing__row {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+.staing__inp {
+  width: 400px;
+  height: 69px;
+  font-size: 20px;
+  line-height: 24px;
+  font-weight: 400;
+  font-style: italic;
+  color: #929292;
+  padding: 0px 0 0 10px;
+  margin-right: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.staing__btn {
+  width: 126px;
+  height: 70px;
+  background-color: #64c29e;
+  border: none;
+  font-family: Lato;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 300;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.title {
+  margin: 39px 0 35px 0;
+  font-size: 24px;
+  line-height: 34px;
+  font-weight: 400;
+  font-style: italic;
+  color: #848789;
+}
+
+.footer {
+  background-color: #f7f7f7;
+}
+.footer__content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 99px 0 103px 0;
+}

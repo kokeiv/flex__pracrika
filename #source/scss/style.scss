@@ -387,3 +387,161 @@ html,body{
 
     }
 }
+
+.footer-shop {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    // .footer-shop__btn
+    padding: 75px 0;
+    @media(max-width:767px){
+        padding: 45px 0;
+    }
+    background-color: #282f35;
+    &__btn {
+    }
+}
+.discover {
+    display: block;
+    width: 300px;
+    height: 50px;
+    border: 1px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    span{
+        font-family: Lato;
+        font-size: 14px;
+        line-height: 1.2;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.2em;
+        color: #ffffff
+
+    }
+}
+.staing {
+    padding: 109px 0 111px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    // .staing__form
+
+    &__form {
+    }
+
+    // .staing__logo
+
+    &__logo {
+        text-align: center;
+    }
+
+    // .staing__row
+
+    &__row {
+        display: flex;
+    }
+
+    // .staing__inp
+
+    &__inp {
+        width: 400px;
+        height: 69px;
+        font-size: 20px;
+        line-height: 24px;
+        font-weight: 400;
+        font-style: italic;
+        color: #929292;
+        padding: 0px 0 0 10px;
+        margin-right: 8px;
+        border: 1px solid rgba($color: #000000, $alpha: .2)
+    }
+
+    // .staing__btn
+
+    &__btn {
+        width: 126px;
+        height: 70px;
+        background-color: #64c29e;
+        border:none;
+        font-family: Lato;
+        font-size: 24px;
+        line-height: 24px;
+        font-weight: 300;
+        color: #ffffff;
+        text-transform: uppercase;
+    }
+}
+.title {
+    margin: 39px 0 35px 0;
+    font-size: 24px;
+    line-height: 34px;
+    font-weight: 400;
+    font-style: italic;
+    color: #848789;
+}
+
+.footer {
+    background-color: #f7f7f7;
+    // .footer__content
+
+    &__content {
+        display: inline;
+        justify-content: space-between;
+        align-items: center;
+        padding: 99px 0 103px 0;
+    }
+
+    // .footer__location
+
+    &__location {
+    }
+
+    // .footer__title
+
+    &__title {
+        font-size: 16px;
+        line-height: 17px;
+        font-weight: 700;
+        color: #848789;
+    }
+
+    // .footer__about
+
+    &__about {
+        font-size: 13.9px;
+        font-weight: 400;
+        font-style: italic;
+        color: #848789;
+    }
+
+    // .footer__icon
+
+    &__icon {
+    }
+
+    // .footer__icon-row
+
+    &__icon-row {
+    }
+
+    // .footer__elem
+
+    &__elem {
+    }
+
+    // .footer__yebo-row
+
+    &__yebo-row {
+    }
+
+    // .footer__image
+
+    &__image {
+    }
+    &__text
+}
+
+
